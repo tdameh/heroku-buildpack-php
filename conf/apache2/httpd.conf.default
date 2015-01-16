@@ -219,8 +219,8 @@ ServerName localhost
 # <Directory> blocks below.
 #
 <Directory />
-    AllowOverride none
-    Require all denied
+    AllowOverride all
+    allow from all
 </Directory>
 
 #
