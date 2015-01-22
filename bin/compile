@@ -390,6 +390,6 @@ fi
 
 # intall anahita
 php anahita site:init --database-name=$DATABASE_NAME --database-user=$DATABASE_USER --database-password=$DATABASE_PASSWORD --database-host=$DATABASE_HOST --database-port=3306 --database-prefix=jos_
-php anahita package:install connect subscription invites hiveapp
+php anahita package:install connect subscription invites hiveapp photos
 php anahita db:migrate:up
 
